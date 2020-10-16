@@ -1,0 +1,298 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html,
+body {
+	height: 100%;
+}
+
+body {
+	background: url(photos/josh-rose-trYl7JYATH0-unsplash-BG.jpg) no-repeat;
+	color: white;
+}
+
+header {
+	position: relative;
+	background-color: rgb(66, 66, 66);
+	height: 90px;
+	padding: 5px 10px;
+}
+
+nav {
+	margin: 4px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline;
+	padding: 4px;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: red;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background-color: rgb(66, 66, 66);
+	color: white;
+	height: 5rem;
+}
+
+div h2 {
+	margin-bottom: 10px;
+}
+
+#page-container {
+	position: relative;
+	min-height: 100vh;
+}
+
+#main-container {
+	padding-bottom: 5rem;
+}
+
+#main {
+	min-height: 100%;
+}
+
+.highlight a {
+	font-size: 120%;
+	padding: 3px;
+	color: rgb(0, 128, 256);
+}
+
+.highlight a:hover {
+	color: rgb(66, 66, 66);
+	background-color: rgb(0, 128, 256);
+}
+
+#news {
+	text-align: center;
+}
+
+#news section {
+	background: url(photos/hunter-harritt-Ype9sdOPdYc-unsplash.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 480px;
+	position: relative;
+	border: white solid 1px;
+	border-radius: 5px 5px 10px 10px;
+	margin: 0px 30px 20px 30px;
+}
+
+#news section p {
+	position: absolute;
+	bottom: 10px;
+}
+
+#programs {
+	text-align: center;
+}
+
+.program {
+	display: flex;
+	margin: 0px 30px 40px 30px;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.program img {
+	width: 512px;
+	height: 256px;
+}
+
+.program section {
+	padding: 10px;
+}
+
+.program section p {
+	margin-top: 20px;
+}
+
+#updates {
+	text-align: center;
+}
+
+.update {
+	font-size: 90%;
+}
+
+.recentUpdate {
+	font-size: 110%;
+}
+
+#newsletter {
+	text-align: center;
+	margin: 10px 0px;
+	padding: 5px;
+	color: rgb(0, 128, 256);
+	background-color: rgb(66, 66, 66);
+}
+
+#newsletter input[type="email"] {
+	width: 300px;
+	height: 30px;
+}
+
+#newsletter input[type="submit"] {
+	height: 30px;
+}
+
+#customers {
+	text-align: center;
+	margin: 40px 0px;
+}
+
+#customers ul {
+	margin-top: 30px;
+}
+
+#customers ul li {
+	list-style: none;
+	display: inline;
+	padding: 30px;
+}
+
+#footerResources li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px 20px;
+}
+
+.current-page {
+	text-decoration: underline;
+}
+
+.serviceCards {
+	display: flex;
+	flex-direction: column;
+	/* background: yellow; */
+	height: 82vh;
+}
+
+.serviceCard {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	border: solid white 1px;
+	padding: 10px;
+	margin: 10px;
+	letter-spacing: 0.2rem;
+}
+
+.basic {
+	flex: 1;
+}
+
+.intermediate {
+	flex: 2;
+}
+
+.enterprise {
+	flex: 1;
+}
+
+.price {
+	font-size: 120%;
+	margin-top: 5px;
+}
+
+/*****
+//////
+Contact Page
+//////
+*****/
+
+#contact-main-container {
+	max-width: 1080px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+/* 
+Contact Form 
+*/
+
+#contactForm-container > h2 {
+	text-align: center;
+}
+
+#contactForm {
+	display: table;
+	/* background: blue; */
+	margin: auto;
+}
+
+#contactForm > .tableRow {
+	display: table-row;
+}
+
+#contactForm > .tableRow > p {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 5px;
+}
+
+#contactForm > .tableRow label {
+	font-size: 150%;
+}
+
+#contactForm > .tableRow input,
+#contactForm > .tableRow textarea {
+	border-radius: 15px;
+	padding: 3px;
+	font-size: 110%;
+}
+
+#contactForm > .tableRow input[type="text"],
+#contactForm > .tableRow input[type="email"],
+#contactForm > .tableRow input[type="tel"] {
+	height: 40px;
+	width: 300px;
+}
+
+#contactForm > .tableRow input[type="submit"] {
+	transition: all 0.2s ease-in-out;
+}
+
+#contactForm > .tableRow input[type="submit"]:hover {
+	scale: 1.1;
+}
+
+/* Company Showcase */
+#company {
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	margin: auto;
+	max-width: 1080px;
+}
+
+#company section {
+	padding: 10px;
+}
+
+#company img {
+	height: 540px;
+	width: 360px;
+}
