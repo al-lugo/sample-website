@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;/
 }
 html,
 body {
@@ -12,6 +12,7 @@ body {
 body {
 	background: url(photos/josh-rose-trYl7JYATH0-unsplash-BG.jpg) no-repeat;
 	color: white;
+	font-size:small;
 }
 
 header {
@@ -53,7 +54,7 @@ footer {
 	text-align: center;
 	background-color: rgb(66, 66, 66);
 	color: white;
-	height: 5rem;
+	height: 6rem;
 }
 
 div h2 {
@@ -66,11 +67,13 @@ div h2 {
 }
 
 #main-container {
-	padding-bottom: 5rem;
+	padding-bottom: 6rem;
 }
 
 #main {
 	min-height: 100%;
+	max-width: 1024px;
+	margin: auto;
 }
 
 .highlight a {
@@ -223,15 +226,17 @@ Contact Page
 //////
 *****/
 
-#contact-main-container {
-	max-width: 1080px;
-	margin: auto;
-	margin-bottom: 20px;
-}
 
 /* 
 Contact Form 
 */
+#contact-main-container {
+margin-bottom: 20px;
+}
+
+#contactForm-container{
+	
+}
 
 #contactForm-container > h2 {
 	text-align: center;
@@ -254,7 +259,8 @@ Contact Form
 }
 
 #contactForm > .tableRow label {
-	font-size: 150%;
+	font-size: 130%;
+	
 }
 
 #contactForm > .tableRow input,
@@ -277,6 +283,7 @@ Contact Form
 
 #contactForm > .tableRow input[type="submit"]:hover {
 	scale: 1.1;
+	background-color: white;
 }
 
 /* Company Showcase */
@@ -284,15 +291,13 @@ Contact Form
 	display: flex;
 	align-items: center;
 	padding: 20px;
-	margin: auto;
-	max-width: 1080px;
 }
 
 #company section {
 	padding: 10px;
+	flex: 2;
 }
 
 #company img {
-	height: 540px;
-	width: 360px;
+	flex: 1;
 }
