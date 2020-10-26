@@ -72,7 +72,7 @@ div h2 {
 
 #main {
 	min-height: 100%;
-	max-width: 1024px;
+	/* max-width: 1024px; */
 	margin: auto;
 }
 
@@ -187,9 +187,9 @@ div h2 {
 
 .serviceCards {
 	display: flex;
-	flex-direction: column;
-	/* background: yellow; */
-	height: 82vh;
+	flex-wrap: wrap;
+	min-width: 512px;
+	
 }
 
 .serviceCard {
@@ -208,7 +208,7 @@ div h2 {
 }
 
 .intermediate {
-	flex: 2;
+	flex: 1;
 }
 
 .enterprise {
@@ -218,7 +218,7 @@ div h2 {
 .price {
 	font-size: 120%;
 	margin-top: 5px;
-}
+	color: rgb(0, 128, 256);}
 
 /*****
 //////
