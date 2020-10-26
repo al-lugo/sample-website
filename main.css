@@ -12,7 +12,7 @@ body {
 body {
 	background: url(photos/josh-rose-trYl7JYATH0-unsplash-BG.jpg) no-repeat;
 	color: white;
-	font-size:small;
+	font-size: small;
 }
 
 header {
@@ -188,8 +188,7 @@ div h2 {
 .serviceCards {
 	display: flex;
 	flex-wrap: wrap;
-	min-width: 512px;
-	
+	/* background: yellow; */
 }
 
 .serviceCard {
@@ -201,24 +200,15 @@ div h2 {
 	padding: 10px;
 	margin: 10px;
 	letter-spacing: 0.2rem;
-}
-
-.basic {
-	flex: 1;
-}
-
-.intermediate {
-	flex: 1;
-}
-
-.enterprise {
-	flex: 1;
+	min-height: 256px;
+	flex: 480px;
 }
 
 .price {
 	font-size: 120%;
 	margin-top: 5px;
-	color: rgb(0, 128, 256);}
+	color: rgb(0, 128, 256);
+}
 
 /*****
 //////
@@ -226,12 +216,11 @@ Contact Page
 //////
 *****/
 
-
 /* 
 Contact Form 
 */
 #contact-main-container {
-margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 #contactForm-container > h2 {
@@ -256,7 +245,6 @@ margin-bottom: 20px;
 
 #contactForm > .tableRow label {
 	font-size: 130%;
-	
 }
 
 #contactForm > .tableRow input,
